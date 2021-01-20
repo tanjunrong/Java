@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java-maven">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_maven</output-path>
+    <root id="archive" name="java-maven.war" />
+  </artifact>
+</component>

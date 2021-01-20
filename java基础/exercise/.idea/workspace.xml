@@ -7,6 +7,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -18,33 +44,105 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/mysql-connector-java-8.0.22.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Database" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyDB">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="exercise" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MyCollection" />
+      <module name="exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MyDB" />
+      <module name="exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MySubClass" />
+      <module name="exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MyThread" />
+      <module name="exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MySubClass" />
+      <item itemvalue="Application.MyCollection" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.MyDB" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDB" />
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.MyCollection" />
+        <item itemvalue="Application.MySubClass" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -59,7 +157,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609754673633</updated>
-      <workItem from="1609754678238" duration="8924000" />
+      <workItem from="1609754678238" duration="9218000" />
+      <workItem from="1609816805663" duration="11140000" />
+      <workItem from="1609993401008" duration="3714000" />
+      <workItem from="1610017652583" duration="62000" />
+      <workItem from="1610017734127" duration="633000" />
+      <workItem from="1610090580840" duration="4532000" />
+      <workItem from="1610153641266" duration="2440000" />
+      <workItem from="1610434480142" duration="4775000" />
+      <workItem from="1610507079054" duration="12126000" />
+      <workItem from="1610604001658" duration="1187000" />
+      <workItem from="1610694147069" duration="662000" />
+      <workItem from="1610928899218" duration="4280000" />
+      <workItem from="1611124375898" duration="70000" />
     </task>
     <servers />
   </component>
@@ -67,21 +177,94 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1609767173483">
+    <state x="552" y="181" key="#Notifications" timestamp="1610017709883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1609767173483" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1609767173483">
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610017709883" />
+    <state x="552" y="181" key="#SQL_方言" timestamp="1610548364221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1609767173483" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1609767173483">
+    <state x="552" y="181" key="#SQL_方言/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610548364221" />
+    <state x="556" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610558444561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1609767173483" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1609767173483">
+    <state x="556" y="236" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558444561" />
+    <state x="740" y="228" width="548" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610010787760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1609767173483" />
+    <state x="740" y="228" width="548" height="584" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610010787760" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1610467698346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610467698346" />
+    <state x="690" y="269" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1610544803325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610544803325" />
+    <state x="763" y="345" key="FileChooserDialogImpl" timestamp="1611023883464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="345" key="FileChooserDialogImpl/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1611023883464" />
+    <state width="937" height="321" key="GridCell.Tab.0.bottom" timestamp="1610558583253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="746" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1609863371274" />
+    <state width="937" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558583253" />
+    <state width="937" height="321" key="GridCell.Tab.0.center" timestamp="1610558583253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="746" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1609863371274" />
+    <state width="937" height="321" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558583253" />
+    <state width="937" height="321" key="GridCell.Tab.0.left" timestamp="1610558583253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="746" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1609863371274" />
+    <state width="937" height="321" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558583253" />
+    <state width="937" height="321" key="GridCell.Tab.0.right" timestamp="1610558583253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="746" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1609863371274" />
+    <state width="937" height="321" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558583253" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1610549842698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610549842698" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1610549842697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610549842697" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1610549842697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610549842697" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1610549842698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610549842698" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1610556208978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610556208978" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1610558509977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558509977" />
+    <state x="576" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1610928900685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="249" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.9.1536.824@-1920.9.1536.824" timestamp="1609993465622" />
+    <state x="576" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610928900685" />
+    <state x="681" y="488" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1610558050037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="488" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610558050037" />
+    <state x="358" y="203" key="new project wizard" timestamp="1611023936845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="358" y="203" key="new project wizard/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1611023936845" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610557185627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.9.1536.824@0.0.1920.1040" timestamp="1610557185627" />
   </component>
 </project>
